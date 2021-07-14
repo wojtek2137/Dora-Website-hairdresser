@@ -15,7 +15,11 @@
     width: 100%;
     position: fixed;
   }
-
+  .nav-headers{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+  }
   .brand {
     text-align: right;
     color: white;
@@ -157,8 +161,10 @@ margin:20px;
 }
 .hours ul{
 display: flex;
+flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
+padding:0;
 }
 .hours ul li {
 font-size: 2em;
@@ -189,7 +195,7 @@ filter: invert(0.2);
 h2.brand{
 font-size:5.5em;
 text-align: center;
-margin:50px 0 30px;
+margin:50px 20px 30px;
 }
 .oferta h3{
   margin-top: 0;
@@ -316,3 +322,101 @@ footer{
 .gmap_iframe {
   height: 200px !important;
 }
+
+
+
+
+@media (max-width: 575.98px) { 
+  .header h2{
+    font-size: 3em;
+    letter-spacing: 0;
+    color:#2525239f;
+    line-height: 1;
+    } 
+    h2.brand {
+      font-size: 3em;
+      text-align: center;
+      margin: 50px 0 30px;
+  }
+  .about-content{
+    width: 96% !important;;
+  }
+ }
+
+@media (max-width: 767.98px) {    
+   .nav-headers{
+    display:none; 
+  }
+  .header h2{
+  font-size: 4em!important;
+  } 
+  .about-content{
+    padding: 20px 20px;
+    
+  }
+  .hours {
+    text-align: center;
+    color: #252523e8;
+    padding:0;
+    width: 100%;
+    margin:30px 0; 
+}
+.hours h2{
+ font-size: 3em;
+}
+.hours ul li {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 300;
+}
+}
+
+
+@media (max-width: 991.98px) { 
+   .header {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 70vh;
+      background-position: top;
+    }
+  .header h2{
+    font-size: 5em;
+    font-weight: 100;
+    color:#252523e8;
+    padding-left: 0;
+  }
+  
+  .about-content{
+    flex-direction: column;
+  }
+  .about-text h4{
+    margin:15px auto;
+    text-align: center;
+  }
+  .hours {
+    padding: 50px 10px;
+
+}
+}
+
+
+@media (max-width: 1199.98px) { 
+ .about-content{
+  width: 83%;
+ }
+}
+
+
+@media (max-width: 1399.98px) { 
+  .about{
+    padding: 50px 0;
+  }
+ 
+ }
+
