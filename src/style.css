@@ -181,7 +181,7 @@ filter: invert(0.2);
 }
 .oferta{
   background-image: 
-  radial-gradient(circle, rgba(214, 200, 124, 0.527) 0%, rgba(0, 0, 0, 0.726) 100%),
+  radial-gradient(circle, rgba(107, 100, 61, 0.315) 0%, rgba(0, 0, 0, 0.76) 100%),
   url("../images/about2.jpg");
   height: auto;
   max-height: auto;
@@ -334,13 +334,16 @@ footer{
     line-height: 1;
     } 
     h2.brand {
-      font-size: 3em;
+      font-size: 3.5em;
       text-align: center;
       margin: 50px 0 30px;
   }
   .about-content{
     width: 96% !important;;
   }
+  .oferta h3 {
+    font-size: 2.5em;
+}
  }
 
 @media (max-width: 767.98px) {    
@@ -372,6 +375,9 @@ footer{
   text-decoration: none;
   list-style: none;
   font-weight: 300;
+}
+.card{
+  margin:15px 0;
 }
 }
 
