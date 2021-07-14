@@ -20,33 +20,28 @@
 </head>
 
 <body>
-    <nav>
-        <a class="brand"><span class="club"">KLUB</span>DORA... </a>
+    <nav id="mainNavbar" class="nav">
+        <a class="brand" href="#header"><span class="club"">KLUB</span>DORA... </a>
         <div class=" nav-headers">
                 <ul>
 
-                    <li><a href=" #">Start</a> </li>
-
-
-                    <li><a href="#">Oferta</a> </li>
-
-
-                    <li><a href="#">O mnie</a> </li>
-
+                    <li><a href="#header">Start</a> </li>
+                    <li><a href="#about">O mnie</a> </li>
+                    <li><a href="#oferta">Oferta</a> </li>
                 </ul>
-                <a id='nav-kontakt' href="">Kontakt</a>
+                <a id='nav-kontakt' href="#contact">Kontakt</a>
                 </div>
 
     </nav>
 
-    <section class="header">
+    <section id="header">
         <div>
             <h2>Świata <br> nie zmienisz,<br> ale fryzurę możesz...</h2>
         </div>
 
     </section>
 
-    <section class="about">
+    <section id="about">
         <div class="about-content">
             <h2 class="brand"><span class="club"">KLUB</span>DORA... </a></h2>
             <div class=" about-text">
@@ -86,7 +81,7 @@
         </div>
     </div>
 
-    <section class="oferta">
+    <section id="oferta">
         <h2 class="brand"><span class="club"">KLUB</span>DORA... </a></h2>
         <h3>Oferta</h3>
 
@@ -197,10 +192,13 @@
 
     </section>
 
-    <section class="contact">
+    <section id="contact">
         <div class="tile1">
             <h4>Znajdź mnie <br> na</h4>
-            <img src="images/facebook-icon-gold.png" alt="">
+            <a href="https://www.facebook.com/KlubFryzjerskiDora">
+                <img src="
+                images/facebook-icon-gold.png" alt="">
+            </a>
         </div>
         <div class="tile2">
             <h4>Napisz <br> do mnie</h4>
@@ -238,7 +236,10 @@
         </div>
 
     </div>
-    <script src="/src/app.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="src/app.js" async defer></script>
     <footer>Copyright 2021 Wojtek Rejdych</footer>
 </body>
 
