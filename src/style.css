@@ -25,6 +25,15 @@
     flex-direction: row;
     width: 100%;
   }
+  .nav-headers.active{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  height: 100vh;
+  background: #ac8f4b;
+  }
   .brand {
     text-align: right;
     color: white;
