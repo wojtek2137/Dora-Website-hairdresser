@@ -11,9 +11,9 @@ $(function () {
 
 // }
 
-const headers = document.querySelector(".nav-headers");
-const btn = document.querySelector(".nav-icon");
+// const headers = document.querySelector(".nav-headers");
+// const btn = document.querySelector(".nav-icon");
 
-btn.addEventListener('click', () => {
-    headers.classList.toggle('active');
-})
+// btn.addEventListener('click', () => {
+//     headers.classList.toggle('active');
+// })
