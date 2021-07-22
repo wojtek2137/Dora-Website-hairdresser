@@ -33,6 +33,7 @@
     background-color: #1b1b1aee;
     justify-content: center;
     align-items: center;
+    z-index: 0.5;
     
   } 
   .nav-headers.active ul{
