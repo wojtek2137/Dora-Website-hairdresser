@@ -8,7 +8,7 @@ $(function () {
 
 const headers = document.querySelector(".nav-headers");
 const btn = document.querySelector(".nav-icon");
-const link = document.querySelector("ul")
+const link = document.querySelector(".link")
 
 btn.addEventListener('click', () => {
     headers.classList.toggle('active');
