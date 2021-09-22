@@ -1,19 +1,17 @@
 $(function () {
     $(document).scroll(function () {
-        var $nav = $("#mainNavbar");
+        var $nav = $(".nav");
         $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     });
 });
 
 
-const headers = document.querySelector(".nav-headers");
-const btn = document.querySelector(".nav-icon");
-const link = document.querySelector(".link")
+const toggleButton = document.querySelector(".toggle-button");
+const links = document.querySelector(".nav-headers");
 
-btn.addEventListener('click', () => {
-    headers.classList.toggle('active');
-})
-
-link.addEventListener('click', () => {
-    headers.classList.toggle('active');
+toggleButton.addEventListener('click', () => {
+    links.classList.toggle('active');
+});
+links.addEventListener('click', () => {
+    links.classList.toggle('active');
 })
